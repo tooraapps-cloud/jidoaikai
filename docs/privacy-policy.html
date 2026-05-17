@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>プライバシーポリシー - 自動AI回答</title>
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Hiragino Sans', sans-serif;
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 24px 16px;
+      color: #1a1a1a;
+      line-height: 1.8;
+    }
+    h1 { font-size: 24px; border-bottom: 2px solid #007AFF; padding-bottom: 8px; }
+    h2 { font-size: 18px; margin-top: 32px; color: #007AFF; }
+    p { margin: 12px 0; }
+    footer { margin-top: 48px; color: #666; font-size: 13px; }
+  </style>
+</head>
+<body>
+  <h1>プライバシーポリシー</h1>
+  <p>自動AI回答（以下「本アプリ」）は、ユーザーのプライバシーを尊重し、個人情報の保護に努めます。</p>
+
+  <h2>収集する情報</h2>
+  <p>本アプリは以下の情報を収集します：</p>
+  <ul>
+    <li>Firebase匿名認証によるデバイスUID</li>
+    <li>送信した問題文・AI回答の履歴（Firestore）</li>
+    <li>アプリ設定情報（端末内AsyncStorage）</li>
+    <li>APIキー（端末内Keychain/SecureStore・サーバーには送信しません）</li>
+  </ul>
+
+  <h2>情報の利用目的</h2>
+  <p>収集した情報は、残回数管理・履歴表示・サービス改善のみに使用します。マーケティング目的での使用や第三者への販売は行いません。</p>
+
+  <h2>第三者への提供</h2>
+  <ul>
+    <li><strong>OpenAI API</strong>：問題文・画像の解析のため</li>
+    <li><strong>Firebase（Google）</strong>：認証・データ保存のため</li>
+    <li><strong>RevenueCat</strong>：購入管理のため</li>
+    <li><strong>Google AdMob</strong>：広告配信のため（無料ユーザーのみ）</li>
+  </ul>
+
+  <h2>データの保持期間</h2>
+  <p>履歴データはFirestoreに最大100件保存されます。アカウント削除をご希望の場合は下記までお問い合わせください。</p>
+
+  <h2>セキュリティ</h2>
+  <p>APIキーはiOS Keychainで暗号化して保存されます。通信はすべてHTTPS（TLS）で暗号化されています。</p>
+
+  <h2>お問い合わせ</h2>
+  <p>プライバシーに関するご質問・削除依頼は、アプリ内の設定画面に記載のブログリンクよりお問い合わせください。</p>
+
+  <h2>改定について</h2>
+  <p>本ポリシーは必要に応じて改定することがあります。重要な変更がある場合はアプリ内でお知らせします。</p>
+
+  <footer>
+    <p>最終更新日：2026年5月10日</p>
+  </footer>
+</body>
+</html>
